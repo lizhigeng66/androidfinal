@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/educated"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/educated" />
+
+    <RadioGroup
+        android:id="@+id/edugroup"
+        android:layout_width="match_parent"
+        android:layout_height="265dp">
+
+        <RadioButton
+            android:id="@+id/eradio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="初中及以下" />
+
+        <RadioButton
+            android:id="@+id/eradio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="高中" />
+
+        <RadioButton
+            android:id="@+id/eradio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="大专" />
+
+        <RadioButton
+            android:id="@+id/eradio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="本科" />
+
+        <RadioButton
+            android:id="@+id/eradio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="硕士及以上" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一题" />
+
+
+</LinearLayout>

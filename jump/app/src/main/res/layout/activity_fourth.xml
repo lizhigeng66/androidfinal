@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/vocation"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/vocation" />
+
+    <RadioGroup
+        android:id="@+id/vocationgroup"
+        android:layout_width="match_parent"
+        android:layout_height="327dp">
+
+        <RadioButton
+            android:id="@+id/vradio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="学生" />
+
+        <RadioButton
+            android:id="@+id/vradio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="行政单位" />
+
+        <RadioButton
+            android:id="@+id/vradio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="行政企业" />
+
+        <RadioButton
+            android:id="@+id/vradio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="事业单位" />
+
+        <RadioButton
+            android:id="@+id/vradio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自由职业" />
+
+        <RadioButton
+            android:id="@+id/vradio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="退休人员" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一题" />
+
+</LinearLayout>

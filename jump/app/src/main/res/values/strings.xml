@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">调查问卷</string>
+    <string name="signs">本应用是北京邮电大学学生为期末作业所编写的。它会读取您手机中的应用列表，但保证不会涉及到任何隐私内容，后面的问卷内容请您如实填写
+    。请确保在联网状态下使用该应用。如您无法接受上述条件，请关闭并删除该应用。感谢您的配合！</string>
+    <string name="button_1">Button 1</string>
+    <string name="sex">性别</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="next">下一题</string>
+    <string name="birth">请选择生日(可点击年份进行选择)</string>
+    <string name="cost">消费水平(月均开销)</string>
+    <string name="vocation">职业</string>
+    <string name="educated">文化程度</string>
+    <string name="emotional">感情状态</string>
+    <string name="transportation">出行方式</string>
+    <string name="hobit">日常爱好</string>
+    <string name="finaltitle">扫二维码进微信群得报酬</string>
+</resources>

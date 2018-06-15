@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/vocation"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/emotional" />
+
+    <RadioGroup
+        android:id="@+id/emgroup"
+        android:layout_width="match_parent"
+        android:layout_height="307dp">
+
+        <RadioButton
+            android:id="@+id/emradio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="单身" />
+
+        <RadioButton
+            android:id="@+id/emradio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="恋爱" />
+
+        <RadioButton
+            android:id="@+id/emradio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="已婚" />
+
+        <RadioButton
+            android:id="@+id/emradio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="离异" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一题" />
+
+
+</LinearLayout>

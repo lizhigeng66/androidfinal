@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/vocation"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/transportation" />
+
+    <RadioGroup
+        android:id="@+id/transgroup"
+        android:layout_width="match_parent"
+        android:layout_height="367dp">
+
+        <RadioButton
+            android:id="@+id/tradio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="步行" />
+
+        <RadioButton
+            android:id="@+id/tradio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="自行车" />
+
+        <RadioButton
+            android:id="@+id/tradio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="公交汽车" />
+
+        <RadioButton
+            android:id="@+id/tradio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="私家车" />
+
+        <RadioButton
+            android:id="@+id/tradio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="地铁" />
+
+        <RadioButton
+            android:id="@+id/tradio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="出租车" />
+
+        <RadioButton
+            android:id="@+id/tradio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="其他" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一题" />
+</LinearLayout>
